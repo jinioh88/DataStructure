@@ -9,5 +9,63 @@
      5) 빈 큐는 꺼낼 수 없다.
 
 **/
-public class Queue {
+public class Queue implements Queueable<Integer>{
+
+    private int capaciry;
+    private int front;
+    private int rear;
+    private int[] elements;
+
+    public Queue(){
+        this(6);
+    }
+
+    public Queue(int capaciry) {
+        this.capaciry = capaciry;
+        this.front = 0;
+        this.rear = 0;
+        this.elements = (int[]) new int[capaciry];
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return front == rear;
+    }
+
+    @Override
+    public int front() {
+        return elements[front];
+    }
+
+    @Override
+    public int rear() {
+        return elements[rear];
+    }
+
+    @Override
+    public void enqueue(int n) {
+        if(isFull()) {
+            System.out.println("Queue is Full!");
+        } else {
+            // 순환 되서 capacity로 나머지값 처리 해줌.
+            elements[rear++ % capaciry] = n;
+        }
+    }
+
+    @Override
+    public int dequeue() {
+        int res;
+        if(isEmpty()){
+            System.out.println("Queue is Empty!");
+        } else {
+            res = front();
+            front = (++front)%capaciry;
+        }
+        return res;
+    }
+
+    @Override
+    public boolean isFull() {
+        return capaciry == rear+1;
+    }
 }
