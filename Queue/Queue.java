@@ -9,7 +9,7 @@
      5) 빈 큐는 꺼낼 수 없다.
 
 **/
-public class Queue implements Queueable<Integer>{
+public class Queue<Integer> implements Queueable<Integer>{
 
     private int capaciry;
     private int front;
@@ -54,7 +54,7 @@ public class Queue implements Queueable<Integer>{
 
     @Override
     public int dequeue() {
-        int res;
+        int res=0;
         if(isEmpty()){
             System.out.println("Queue is Empty!");
         } else {
