@@ -1,3 +1,5 @@
+package ArrayList;
+
 
 
 public class ArrayList implements ArrayListable{
@@ -74,6 +76,12 @@ public class ArrayList implements ArrayListable{
     return text + "]";
   }
   
-  
+  private void resize(int newSize) {
+    Object[] t = new Object[newSize];  // 동적으로 배열 t생성
+    for(int i=0;i<size;i++) {
+      t[i] = a[i];
+    }
+    a = (E[])t;
+  }
   
 }
