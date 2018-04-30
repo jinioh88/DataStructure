@@ -1,3 +1,4 @@
+import java.util.NoSuchElementException;
 
 public class ArrayQueue <E> {
 	private E[] q;
@@ -18,4 +19,26 @@ public class ArrayQueue <E> {
 		q[rear] = newItem;
 		size++;
 	}
+	   
+	public E remove() {
+		if(isEmpty()) throw new NoSuchElementException();
+		front = (front+1)% q.length;
+		E item = q[front]; // 원래 빈거 가리키고 있엇으니
+		q[front] = null;
+		size--;
+		if(size>0 && size == q.length/4)
+			resize(q.length/2);
+		return item;
+	}
+	
+	private void resize(int newSize) {
+		Object[] t = new Object[newSize];
+		for(int i=1,j=front+1; i<size+1; i++,j++) {
+			t[i] = q[j%q.length];
+		}
+		front = 0;
+		rear = size;
+		q = (E[])t;
+	}
+	
 }
