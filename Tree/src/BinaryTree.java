@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTree<Key extends Comparable<Key>> {
 	private Node root;
@@ -39,7 +41,19 @@ public class BinaryTree<Key extends Comparable<Key>> {
 	}
 	
 	// 레벨 순회
-//	public void levelorder(Node root) {}
+	public void levelorder(Node root) {
+		Queue<Node> q = new LinkedList<Node>();
+		Node t;
+		q.add(root);
+		while(!q.isEmpty()) {
+			t = q.remove(); // 가장 앞에꺼 제거
+			System.out.print(t.getKey()+" ");
+			if(t.getLeft()!=null)
+				q.add(t.getLeft());
+			if(t.getRight()!=null)
+				q.add(t.getRight());
+		}
+	}
 	
 	// 트리 노드 수
 	public int size(Node n) {
