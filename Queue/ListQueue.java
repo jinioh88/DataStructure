@@ -1,5 +1,7 @@
 import java.util.NoSuchElementException;
 
+import Queue.Node;
+
 public class ListQueue <E> {
 	private Node<E> front, rear;
 	private int size;
