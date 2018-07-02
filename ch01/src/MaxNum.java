@@ -44,7 +44,7 @@ public class MaxNum {
         }
         return count;
     }
-    // a
+    // basic
     public static void main(String[] args){
         System.out.println(jari(123444));
     }
