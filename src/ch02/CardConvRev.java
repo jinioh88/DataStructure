@@ -1,14 +1,17 @@
 package ch02;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class CardConvRev {
-    static int cardConvR(int x, int r, char[] d) {
+    static int cardConvR(int x, int r, Queue<Character> queue) {
         int digit = 0;
         String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
         do{
-            d[digit++] = dchar.charAt(x%r);
+            queue.add(dchar.charAt(x%r));
             x /= r;
         }while(x!=0);
 
@@ -21,7 +24,7 @@ public class CardConvRev {
         int cd;
         int dno;
         int retry;
-        char[] cno = new char[32];
+        Queue<Character> q = new LinkedList<>();
 
         System.out.println("10진수를 기수로 변경");
         do{
@@ -35,10 +38,10 @@ public class CardConvRev {
                 cd = sc.nextInt();
             }while(cd<2 || cd >36);
 
-            dno = cardConvR(no, cd, cno);
+            dno = cardConvR(no, cd, q);
 
-            for(int i = dno-1; i>=0; i--) {
-                System.out.println(cno[i]);
+            for(char c : q){
+                System.out.println(c);
             }
 
             System.out.println("한번 더?(1 / 0)");
