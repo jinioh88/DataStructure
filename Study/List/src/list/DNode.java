@@ -1,3 +1,5 @@
+package list;
+
 public class DNode <E> {
     private E item;
     private DNode previous;
