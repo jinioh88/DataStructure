@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e1d4f90-18ec-4833-9b40-e00f6f85d187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_study/src/ReverseNumbericalOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_study/src/SimpleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_study/src/SimpleTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/ConsoleLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/FileLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/Logging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/ArrayList/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/ArrayList/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/ArrayList/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/List/ArrayList/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_study/data_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data_study/data_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/data_study/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/data_study/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,26 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.createTree">
-    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data_study" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.arrayCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="arrayCopy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ListTest.useConsoleLogging">
     <configuration name="ListTest.createTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,21 +69,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.customSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data_study" />
+    <configuration name="ListTest.orverwriteKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="customSorting" />
+      <option name="METHOD_NAME" value="orverwriteKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.queueInsertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.setExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="queueInsertion" />
+      <option name="METHOD_NAME" value="setExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest.treeMapTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListTest" />
+      <option name="METHOD_NAME" value="treeMapTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest.useConsoleLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListTest" />
+      <option name="METHOD_NAME" value="useConsoleLogging" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListTest.useConsoleLogging" />
+        <item itemvalue="JUnit.ListTest.setExample" />
+        <item itemvalue="JUnit.ListTest.treeMapTraversal" />
+        <item itemvalue="JUnit.ListTest.orverwriteKey" />
         <item itemvalue="JUnit.ListTest.createTree" />
-        <item itemvalue="JUnit.ListTest.queueInsertion" />
-        <item itemvalue="JUnit.ListTest.arrayCopy" />
-        <item itemvalue="JUnit.ListTest" />
-        <item itemvalue="JUnit.ListTest.customSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589008309466</updated>
-      <workItem from="1589008313616" duration="6261000" />
+      <workItem from="1589008313616" duration="8252000" />
     </task>
     <servers />
   </component>

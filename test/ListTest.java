@@ -71,4 +71,52 @@ public class ListTest {
         assertTrue(root.search(10));
         assertEquals(Integer.valueOf(10), root.getRight().getRight().getValue());
     }
+
+    @Test
+    public void orverwriteKey() {
+        final Map<String, String> preferences = new HashMap<>();
+        preferences.put("like", "jacuzzi");
+        preferences.put("dislike", "steam room");
+
+        assertEquals("jacuzzi", preferences.get("like"));
+
+        preferences.put("like", "sauna");
+
+        assertEquals("sauna", preferences.get("like"));
+    }
+
+    @Test
+    public void treeMapTraversal() {
+        final Map<Integer, String> counts = new TreeMap<>();
+        counts.put(4, "four");
+        counts.put(1, "one");
+        counts.put(3, "three");
+        counts.put(2, "two");
+
+        final Iterator<Integer> keys = counts.keySet().iterator();
+        assertEquals(Integer.valueOf(1), keys.next());
+        assertEquals(Integer.valueOf(2), keys.next());
+        assertEquals(Integer.valueOf(3), keys.next());
+        assertEquals(Integer.valueOf(4), keys.next());
+        assertFalse(keys.hasNext());
+    }
+
+    @Test
+    public void setExample() {
+        final Set<String> set = new HashSet<>();
+        set.add("hello");
+        set.add("welcome");
+        set.add("goodbye");
+        set.add("bye");
+        set.add("hello");
+
+        assertEquals(4, set.size());
+    }
+
+    @Test
+    public void useConsoleLogging() {
+        final Client c = new Client(new ConsoleLogging());
+        c.doWork(32);
+    }
+
 }
