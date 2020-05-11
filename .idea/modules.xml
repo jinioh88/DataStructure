@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchTree/SearchTree.iml" filepath="$PROJECT_DIR$/SearchTree/SearchTree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Study/complete/complete.iml" filepath="$PROJECT_DIR$/Study/complete/complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_study/data_study.iml" filepath="$PROJECT_DIR$/data_study/data_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
     </modules>
