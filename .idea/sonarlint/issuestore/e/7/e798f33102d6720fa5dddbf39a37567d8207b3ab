@@ -1,0 +1,12 @@
+
+]squid:S11928"FDefine a constant instead of duplicating this literal "third" 3 times.(Ð‰Êñ
+asquid:S1854$"ERemove this useless assignment to local variable "randomArrayLength".(é†ðÜúÿÿÿÿ
+Rsquid:S1854!";Remove this useless assignment to local variable "strings".(±ðæµ
+Psquid:S1854 "9Remove this useless assignment to local variable "bools".(Ê¶ñ’
+Xsquid:S1854"<Remove this useless assignment to local variable "integers".(…œëýÿÿÿÿ
+5squid:S2119#"Save and re-use this "Random".(«¿Âü
+Bsquid:S1481"&Remove this unused "s" local variable.(³³²ºûÿÿÿÿ
+Isquid:S1481"-Remove this unused "integers" local variable.(…œëýÿÿÿÿ
+Asquid:S1481 "*Remove this unused "bools" local variable.(Ê¶ñ’
+Csquid:S1481!",Remove this unused "strings" local variable.(±ðæµ
+Rsquid:S1481$"6Remove this unused "randomArrayLength" local variable.(é†ðÜúÿÿÿÿ

@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f5545b-796b-4c59-9455-4f36afe63925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_study/src/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_study/src/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FibonacciTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_study/data_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data_study/data_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_study/META-INF/data_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/data_study/ListTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,6 +46,31 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Solution1">
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution1" />
+      <module name="data_study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest.fibonacciList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
+      <option name="METHOD_NAME" value="fibonacciList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="JUnit.FibonacciTest.fibonacciList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589155380138</updated>
-      <workItem from="1589155382579" duration="539000" />
+      <workItem from="1589155382579" duration="3131000" />
+      <workItem from="1589262957742" duration="2538000" />
     </task>
     <servers />
   </component>
@@ -74,9 +103,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1002" height="259" key="GridCell.Tab.0.bottom" timestamp="1589265519015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589265519015" />
+    <state width="1002" height="259" key="GridCell.Tab.0.center" timestamp="1589265519014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589265519014" />
+    <state width="1002" height="259" key="GridCell.Tab.0.left" timestamp="1589265519014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589265519014" />
+    <state width="1002" height="259" key="GridCell.Tab.0.right" timestamp="1589265519014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589265519014" />
+    <state width="1002" height="259" key="GridCell.Tab.1.bottom" timestamp="1589265519015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589265519015" />
+    <state width="1002" height="259" key="GridCell.Tab.1.center" timestamp="1589265519015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589265519015" />
+    <state width="1002" height="259" key="GridCell.Tab.1.left" timestamp="1589265519015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589265519015" />
+    <state width="1002" height="259" key="GridCell.Tab.1.right" timestamp="1589265519015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1002" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589265519015" />
     <state x="250" y="0" key="SettingsEditor" timestamp="1589155909669">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="250" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589155909669" />
+    <state x="486" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589156930281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1589156930281" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data_study/src/Solution1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data_study/src/Solution1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
