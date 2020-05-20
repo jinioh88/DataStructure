@@ -1,3 +1,5 @@
+package etc;
+
 public class SimpleLinkedList<E> {
     private static class Element<E> {
         E value;

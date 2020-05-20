@@ -1,4 +1,8 @@
 
+import etc.Client;
+import etc.ConsoleLogging;
+import etc.ReverseNumbericalOrder;
+import etc.SimpleTree;
 import org.junit.Test;
 
 import java.util.*;

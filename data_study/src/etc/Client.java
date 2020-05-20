@@ -1,3 +1,5 @@
+package etc;
+
 public class Client {
     private final Logging logging;
 

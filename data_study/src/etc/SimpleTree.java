@@ -1,3 +1,5 @@
+package etc;
+
 public class SimpleTree<E extends Comparable> {
     private E value;
     private SimpleTree<E> left;
