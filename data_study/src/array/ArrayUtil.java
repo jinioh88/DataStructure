@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+
 public class ArrayUtil {
     private int count = 0;
     private int[] intArray;
