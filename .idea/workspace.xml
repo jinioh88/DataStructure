@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f5545b-796b-4c59-9455-4f36afe63925" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data_study/src/sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_study/src/linked_list/LinkedListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_study/src/linked_list/LinkedListEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data_study/linked_list/LinkedListEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_study/linked_list/LinkedListEx.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,20 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListEx">
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
+      <module name="data_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_list.LinkedListEx" />
       <module name="data_study" />
@@ -74,13 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc.Solution2" />
-      <module name="data_study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="etc.Solution3" />
       <module name="data_study" />
@@ -103,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.LinkedListEx" />
         <item itemvalue="Application.QueueEx" />
         <item itemvalue="Application.StackEx" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -158,46 +164,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1589613200488" />
-    <state width="1618" height="344" key="GridCell.Tab.0.bottom" timestamp="1590114438212">
+    <state width="1618" height="344" key="GridCell.Tab.0.bottom" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438212" />
-    <state width="1618" height="344" key="GridCell.Tab.0.center" timestamp="1590114438212">
+    <state width="1618" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.0.center" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438212" />
-    <state width="1618" height="344" key="GridCell.Tab.0.left" timestamp="1590114438212">
+    <state width="1618" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.0.left" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438212" />
-    <state width="1618" height="344" key="GridCell.Tab.0.right" timestamp="1590114438212">
+    <state width="1618" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.0.right" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438212" />
-    <state width="1618" height="344" key="GridCell.Tab.1.bottom" timestamp="1590114438092">
+    <state width="1618" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.1.bottom" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438092" />
-    <state width="1618" height="344" key="GridCell.Tab.1.center" timestamp="1590114438092">
+    <state width="1618" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.1.center" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438092" />
-    <state width="1618" height="344" key="GridCell.Tab.1.left" timestamp="1590114438092">
+    <state width="1618" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.1.left" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438092" />
-    <state width="1618" height="344" key="GridCell.Tab.1.right" timestamp="1590114438092">
+    <state width="1618" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
+    <state width="1618" height="344" key="GridCell.Tab.1.right" timestamp="1590124066240">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590054888022" />
-    <state width="1618" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590114438092" />
+    <state width="1618" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590124066240" />
     <state x="250" y="0" key="SettingsEditor" timestamp="1589155909669">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -251,6 +257,16 @@
           <url>file://$PROJECT_DIR$/data_study/src/linked_list/LinkedListEx.java</url>
           <line>66</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data_study/src/sort/BubbleSort.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data_study/src/sort/BubbleSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
